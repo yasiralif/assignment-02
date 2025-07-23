@@ -9,18 +9,51 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
+    <!-- tailwind css link -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- this is css link -->
     <link rel="stylesheet" href="./css/stylee.css" />
     <!-- this is google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"/>
+
   </head>
-  <body>
+  <body class="bg-body-color">
     <!-- this is head section -->
+
+    <header class="container mx-auto">
+
+      <nav class="flex justify-between items-center ">
+        <div class="nav-logo">
+          <img src="./assets/logo.png" alt="" srcset="">
+        </div>
+        <div class="nav-links flex gap-3">
+          <a href="" class="font-semibold">Home</a>
+          <a href="" class="dark-1">Shop</a>
+          <a href="" class="dark-1">About</a>
+          <a href="" class="nav-icon"><i class="fa-solid fa-cart-shopping"></i> Cart ($67)</a>
+          
+        </div>
+
+      </nav>
+      <!-- this is head banner section -->
+
+      <section class="head-banner container h-24 my-10">
+        <div class="head-banner-main flex  justify-between items-end ">
+          <div class="banner-content w-[50%] flex flex-col ">
+            <h1 class="text-7xl  py-3">ALWAYS <span class="primary-color">FRESH FLOWERS</span></h1> 
+            <p class=" dark-1">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+          </div>
+          <div class="banner">
+            <img src="./assets/hero-flower.png" class="" alt="" srcset="">
+          </div>
+
+        </div>
+
+      </section>
+    </header>
 
 
   </body>

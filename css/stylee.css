@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* google fonts link section */
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* this is color section usinng all website  */
+.dark-1{
+    color: #000000;
+    opacity: 50%;
+}
+.bg-body-color{
+    background-color: #f5f8ff;
+}
+.primary-color{
+    color: #E95A08;
+}
+
+
+/* this is container section */
+.container{
+    max-width: 1140px;
+    
+}
+/* this is resposive section */
+
+@media screen and (max-width:640px) {
+    nav a{
+        display: none;
+    }
+    .nav-icon{
+        display: inline-block;
+    }
+    nav{
+        margin: 0 10px;
+        align-items: center;
+    }
+
+    .head-banner-main{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        
+    }
+    .banner-content{
+        width: 100%;
+        margin: auto;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+}
