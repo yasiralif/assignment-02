@@ -22,6 +22,9 @@
 .primary-color{
     color: #E95A08;
 }
+.bg-primary-color{
+    background-color: #E95A08;
+}
 
 
 /* this is container section */
@@ -55,5 +58,13 @@
     }
     .banner-content h1{
         font-size: 40px;
+    }
+
+    /* this is plants-card section*/
+    .plants-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        margin: 10px 10px;
+      
     }
 }
