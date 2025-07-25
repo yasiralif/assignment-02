@@ -9,6 +9,14 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+/* this is inter font  */
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 /* this is color section usinng all website  */
 .dark-1 {
