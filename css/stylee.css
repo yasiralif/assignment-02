@@ -7,115 +7,124 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 /* this is color section usinng all website  */
-.dark-1{
-    color: #000000;
-    opacity: 50%;
+.dark-1 {
+  color: #000000;
+  opacity: 50%;
 }
-.bg-body-color{
-    background-color: #f5f8ff;
+.bg-body-color {
+  background-color: #f5f8ff;
 }
-.primary-color{
-    color: #E95A08;
+.primary-color {
+  color: #e95a08;
 }
-.bg-primary-color{
-    background-color: #E95A08;
+.bg-primary-color {
+  background-color: #e95a08;
 }
-
 
 /* this is container section */
-.container{
-    max-width: 1140px;
-    
+.container {
+  max-width: 1140px;
 }
+ /* this is join section */
+  .join-section{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    height: 533px;
+  }
+
 /* this is resposive section */
 
-@media screen and (max-width:640px) {
-    nav a{
-        display: none;
-    }
-    .nav-icon{
-        display: inline-block;
-    }
-    nav{
-        margin: 0 10px;
-        align-items: center;
-    }
+@media screen and (max-width: 640px) {
+  nav a {
+    display: none;
+  }
+  .nav-icon {
+    display: inline-block;
+  }
+  nav {
+    margin: 0 10px;
+    align-items: center;
+  }
 
-    .head-banner-main{
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        
-    }
-    .banner-content{
-        width: 100%;
-        margin: auto;
-    }
-    .banner-content h1{
-        font-size: 40px;
-    }
+  .head-banner-main {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .banner-content {
+    width: 100%;
+    margin: auto;
+  }
+  .banner-content h1 {
+    font-size: 40px;
+  }
+ 
+  /* this is plants-card section*/
+  .plants-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px 10px;
+    height: 100%;
+  }
 
-    /* this is plants-card section*/
-    .plants-card{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        margin: 10px 10px;
-        height: 100%;
-      
-    }
+  /* this is plants-love-section */
+  .plants-love-section {
+    flex-direction: column;
+  }
+  .plants-love-img {
+    width: 350px;
+  }
+  .plants-love-content h1 {
+    font-size: 30px;
+  }
+  .latest-deals-content div {
+    width: 350px;
+  }
 
-    /* this is plants-love-section */
-    .plants-love-section{
-        flex-direction: column;
-        
-      
-    }
-    .plants-love-img{
-        width: 350px;
-        
-        
-    }
-    .plants-love-content h1{
-        font-size: 30px;
+  .latest-deals-content h1 {
+    font-size: 30px;
+  }
 
-    }
-    .latest-deals-content div{
-        width: 350px;
+  .letest-deals-img {
+    width: 350px;
+    height: 171px;
+  }
+  .letest-deals-img-secction1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px auto;
+    height: 581px;
+    width: 361px;
+  }
+  .plants-love-trusted-img {
+    display: none;
+  }
 
-    }
-
-    .latest-deals-content h1{
-        font-size: 30px;
-    }
-
-    .letest-deals-img{
-      
-        width: 350px;
-        height: 171px;
-        
-        
-    }
-    .letest-deals-img-secction1{
-        
-       display: flex;
-       flex-direction: column;
-       gap: 20px;
-       margin: 10px auto;
-       height: 581px;
-       width: 361px;
-        
-        
-        
-        
-    }
-    .plants-love-trusted-img{
-        display: none;
-    }
-
-   
+  /* this is join section */
+  .join-section{
+    height: 275px;
+  }
+  .join-section h1{
+    font-size: 20px;
+  }
+ .join-section-input{
+  width: 321px;
+  display: flex;
+  justify-content: center;
+  background-size: 100%;
+  
+  
+  
+ }
+ .join-section-input input {
+  padding:0 ;
+ }
+ .join-section-input input ,  .join-section-input button{
+  width: 200px;
+ }
 }
