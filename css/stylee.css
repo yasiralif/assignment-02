@@ -14,7 +14,7 @@
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -44,6 +44,22 @@
     height: 533px;
   }
 
+
+  /* button hover */
+  button:hover{
+    background-color: antiquewhite;
+    color: black;
+    transition: 0.4s;
+  }
+
+  /* this is card-itmes section */
+  .card-itmes:hover{
+    box-shadow: 10px 10px 20px black;
+    border-radius: 8px;
+
+  }
+
+
 /* this is resposive section */
 
 @media screen and (max-width: 640px) {
@@ -55,7 +71,13 @@
   }
   nav {
     margin: 0 10px;
+    display: flex;
     align-items: center;
+   
+    
+  }
+  .head-banner{
+    margin-top: 60px;
   }
 
   .head-banner-main {
@@ -145,5 +167,8 @@
  .footer-links{
   display: flex;
   flex-direction: column;
+  gap: 10px;
  }
+   
+
 }
